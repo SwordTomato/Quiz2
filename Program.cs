@@ -15,21 +15,25 @@
 
     }
 
-    static int Mean(int result,int B) {
-        
+    static int Mean(int result,int adder) {
+
+        result = result + 0;
 
     }
     static void Main(string[] args) {
+
+        int adder = 1;
+        int B = 1;
+        int FindMax = Max(result,B);
+        int FindMin = Min(result,B);
+        int FindMean = Mean(result,adder);
         
        while(true) {
         string num = (Console.ReadLine());
-
         if(num == "End") {
             break;
-        }
+        } adder = adder +1;
         int result = Int32.Parse(num);
-        int B = 1;
-        int FindMax = Max(result,B);
        }
             string num = (Console.ReadLine());
        string Order = (Console.ReadLine());
